@@ -7,7 +7,7 @@
 // // console.log(salary);
 // salary.unshift(30000);
 // console.log(salary);
-
+  
 let abid = [2, 6, 9]
 let sabid = [12, 13, 14]
 let concatArray = abid.concat(sabid);
