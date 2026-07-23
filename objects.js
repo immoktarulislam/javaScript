@@ -8,6 +8,17 @@ let student1 = {
 // console.log(student1)
 // console.log(student1.knownLan[2])
 // console.log(typeof student1.knownLan[2])
+// console.log(`anas er school name`, student1.schoolName)
+// console.log(`o Language jane`, student1.knownLan)
+student1.age = 5.2
+// console.log(`present age`, student1.age)
+
+//Bracket notation use: kono variable e data thakkle eta use hoe, 
+// r object thakke data nele dot notation use hoe,
+// forcefully use korle undefined dekhabe; ex-
+// const UpdtAge = `age`;
+// console.log(student1[UpdtAge])
+// console.log(student1.age)
 
 
 let student2 = {
@@ -23,8 +34,54 @@ let student2 = {
         hobbey: `skating`
     }
 }
-console.log(student2.name)
-console.log(student2.LikeFood)
+// console.log(student2.name)
+// console.log(`choto babu valobase`, student2.LikeFood.meat)
+
+//realLife ex- access data
+const mobile = {
+    brand: `nokia`,
+    model: `m1`,
+    price: 55000,
+    color: `black`,
+    stock: 5,
+}
+// console.log(mobile.color)
+// console.log(mobile.stock)
+
+//new property add
+mobile.ram = [`4gb`, `8gb`, `16gb`, `28gb`, `32gb`, `64gb`];
+// console.log(mobile.ram)
+// console.log(mobile)
+
+//delete property
+delete mobile.stock
+// console.log(mobile)
+
+//add property & object under object
+// mobile.stock = {
+//     black: 3,
+//     white: 2,
+//     whitePrice: { th32gb: 65000, th128gb: 95000 },
+//     occianBlue: 4
+// }
+// console.log(mobile)
+
+//with function
+const user = {
+    name: ` Rahim`,
+    sayHello() {
+        console.log(`Hello` + this.name)
+    }
+}
+console.log(user.sayHello())
+
+
+
+
+
+
+
+
 
 
 
