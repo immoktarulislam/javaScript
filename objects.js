@@ -37,6 +37,12 @@ let student2 = {
 // console.log(student2.name)
 // console.log(`choto babu valobase`, student2.LikeFood.meat)
 
+//loop use kora holo object e  
+for (let key in student2) {
+    console.log(key)
+
+}
+
 //realLife ex- access data
 const mobile = {
     brand: `nokia`,
@@ -73,7 +79,7 @@ const user = {
         console.log(`Hello` + this.name)
     }
 }
-console.log(user.sayHello())
+// console.log(user.sayHello())
 
 
 
