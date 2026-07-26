@@ -42,10 +42,10 @@
 // }
 
 
-//for vote criteria
-// const age = 17.9;
+// for vote criteria
+// const age = 18;
 // const isSpecial = true;
-// if (age >= 18 || isSpecial === true) {
+// if (age >= 18 && isSpecial === true) {
 //     console.log(`tumi boro hoyecho, nijer pochondo moto vote dau`)
 // }
 // else {
@@ -53,14 +53,39 @@
 // }
 
 //cyle stop korar sorto
-const isEnergency = true;
-const isBumper = true;
-const isBuySome = true;
-const isSuddenRemember = true;
+// const isEnergency = true;
+// const isBumper = true;
+// const isBuySome = true;
+// const isSuddenRemember = true;
 
-if (isBumper === true || isEnergency === true || isBuySome != false || isSuddenRemember != false) {
-    console.log(`tomar cycle thakke neme dokane giyye jaja dorkar keno o taka payment kore bari aso`)
+// if (isBumper === true || isEnergency === true || isBuySome != false || isSuddenRemember != false) {
+//     console.log(`tomar cycle thakke neme dokane giyye jaja dorkar keno o taka payment kore bari aso`)
+// }
+// else {
+//     console.log(`tomar cycle calye bari asa uchit o computer e bose practice kora khub khub dorkar`)
+// }
+
+//check odd number
+let num = 12;
+if (num % 2 === 1) {
+    console.log(`eta even number`)
 }
-else {
-    console.log(`tomar cycle calye bari asa uchit o computer e bose practice kora khub khub dorkar`)
-}
+else { console.log(`eta even number noi`) }
+
+// // let age = 10;
+// // if (age >= 18) {
+// //     console.log("You are an adult.");
+// // } else {
+// //     console.log("You are a minor.");
+// // }
+
+// let age = 2;
+// if (age >= 18) {
+//     console.log("You are an adult.");
+// } else if (age >= 13) {
+//     console.log("You are a teenager.");
+// } else if (age >= 10) {
+//     console.log("You can be a pre-teen.");
+// } else {
+//     console.log("You are a young child.");
+// }
