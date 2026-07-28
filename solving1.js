@@ -52,14 +52,18 @@
 
 
 //--- print if divisble by 3, fizz; divisble by 5 print buzz; divisble by both print fizzbuzz, other wise nothing ---//
-function fizzBuzz(num) {
+// function fizzBuzz(num) {
 
-    for (let i = 1; i <= num; i++) {
-        console.log(`i==>>${i}`)
-        if (i % 3 === 0 && i % 5 === 0) { console.log(`fizzBuzz`) }
-        else if (i % 3 === 0) { console.log(`fizz`) }
-        else if (i % 5 === 0) { console.log(`buzz`) }
-        else { console.log(`not divisble by 3 or 5`, i) }
-    }
-}
-console.log(fizzBuzz(15))
+//     for (let i = 1; i <= num; i++) {
+//         console.log(`i==>>${i}`)
+//         if (i % 3 === 0 && i % 5 === 0) { console.log(`fizzBuzz`) }
+//         else if (i % 3 === 0) { console.log(`fizz`) }
+//         else if (i % 5 === 0) { console.log(`buzz`) }
+//         else { console.log(`not divisble by 3 or 5`, i) }
+//     }
+// }
+// console.log(fizzBuzz(15))
+
+
+
+
