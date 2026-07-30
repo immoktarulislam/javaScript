@@ -30,20 +30,40 @@
 // console.log(square(9))
 // console.log(square(`9`))
 
-function matchWinner(teamAGoals, teamBGoals) {
-    if (teamAGoals > teamBGoals) {
-        return `Team A won`
-    }
-    else if (teamAGoals < teamBGoals) {
-        return `Team B won`
-    } else if (typeof teamAGoals !== `number`) {
-        return `invalid`
-    }
-    else if (typeof teamBGoals !== `number`) {
-        return `invalid`
-    }
-    else {
-        return `Drow`
+// function matchWinner(teamAGoals, teamBGoals) {
+//     if (teamAGoals > teamBGoals) {
+//         return `Team A won`
+//     }
+//     else if (teamAGoals < teamBGoals) {
+//         return `Team B won`
+//     } else if (typeof teamAGoals !== `number`) {
+//         return `invalid`
+//     }
+//     else if (typeof teamBGoals !== `number`) {
+//         return `invalid`
+//     } else if (typeof teamAGoals == null) {
+//         return `invalid`
+//     }
+//     else if (typeof teamBGoals == null) {
+//         return `invalid`
+//     }
+//     else {
+//         return `Draw`
+//     }
+// }
+// console.log(matchWinner(5, null))
+
+//PROBLEM 02
+const maxWeight = 400;
+let weights = [45, 95, 65, 85, 75, 65, 54]
+let totalWeight = 0;
+for (i = 0; i <= weights.length; i++) {
+    // console.log(weights[i])
+    totalWeight += weights[i];
+    console.log(totalWeight);
+    if (totalWeight <= maxWeight) {
+        console.log(`true`)
+    } else {
+        console.log(`false`)
     }
 }
-console.log(matchWinner(5, `5`))
