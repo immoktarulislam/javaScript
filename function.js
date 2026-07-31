@@ -1,10 +1,4 @@
-// function bazar() {
-//     console.log(`aj sunday anek kaz bazr korte hobbe `)
-// }
-// bazar()
-// bazar()
-// bazar()
-// bazar(`egg sugar musturd oil`)
+//..........PROBLEM 01...............
 
 // const teamAGoals = 5;
 // const teamBGoals = `6`;
@@ -30,40 +24,49 @@
 // console.log(square(9))
 // console.log(square(`9`))
 
-// function matchWinner(teamAGoals, teamBGoals) {
-//     if (teamAGoals > teamBGoals) {
-//         return `Team A won`
-//     }
-//     else if (teamAGoals < teamBGoals) {
-//         return `Team B won`
-//     } else if (typeof teamAGoals !== `number`) {
-//         return `invalid`
-//     }
-//     else if (typeof teamBGoals !== `number`) {
-//         return `invalid`
-//     } else if (typeof teamAGoals == null) {
-//         return `invalid`
-//     }
-//     else if (typeof teamBGoals == null) {
-//         return `invalid`
-//     }
-//     else {
-//         return `Draw`
+//..........PROBLEM 02...............
+// const maxWeight = 400;
+// let weights = [45, 95, 65, 85, 75, 65, 54]
+// let totalWeight = 0;
+// for (i = 0; i <= weights.length; i++) {
+//     totalWeight += weights[i];
+//     console.log(totalWeight);
+//     if (totalWeight <= maxWeight) {
+//         console.log(`true`)
+//     } else {
+//         console.log(`false`)
 //     }
 // }
-// console.log(matchWinner(5, null))
 
-//PROBLEM 02
-const maxWeight = 400;
-let weights = [45, 95, 65, 85, 75, 65, 54]
-let totalWeight = 0;
-for (i = 0; i <= weights.length; i++) {
-    // console.log(weights[i])
-    totalWeight += weights[i];
-    console.log(totalWeight);
-    if (totalWeight <= maxWeight) {
-        console.log(`true`)
-    } else {
-        console.log(`false`)
-    }
-}
+
+// function isElevatorSafe(weights) {
+//     const maxWeight = 400;
+//     let totalWeight = weights[0];
+//     for (i = 0; i <= weights.length; i++) {
+//         totalWeight += weights[i];
+//         return (totalWeight);
+//         if (totalWeight <= maxWeight) {
+//             return (`true`)
+//         } else {
+//             return (`false`)
+//         }
+//     }
+
+// }
+// console.log(isElevatorSafe(25, 125, 90, 32))
+
+// const nums = [95, 76, 98, 70, 75]
+// const maxWeight = 400;
+// let total = 0
+// for (const num of nums) {
+//     total += num;
+
+// }
+// console.log(total)
+// if (total <= maxWeight) {
+//     console.log(`true`)
+// } else {
+//     console.log(`false`)
+// }
+
+
