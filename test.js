@@ -1,3 +1,4 @@
+//Problem-01: Match Winner
 function matchWinner(teamAGoals, teamBGoals) {
     if (typeof teamAGoals !== `number`) {
         return `Invalid`
@@ -16,6 +17,7 @@ function matchWinner(teamAGoals, teamBGoals) {
     }
 }
 
+//Problem-02: Elevator Weight Safety Checker
 function isElevatorSafe(weights) {
     if (!Array.isArray(weights)) {
         return `Invalid`
@@ -24,12 +26,13 @@ function isElevatorSafe(weights) {
     for (let weight of weights) {
         total += weight;
     }
-    console.log(total)
+    console.log(total)  
     return total <= 400;
 }
 
+//Problem-03: AI Token Cost Calculator
 function calculateAiCost(tokensUsed) {
-    if (typeof tokensUsed !== `number` || tokensUsed < 0) {
+if (typeof tokensUsed !== `number` || tokensUsed < 0) {
         return `Invalid`
     }
     else if (tokensUsed <= 500) {
@@ -43,6 +46,7 @@ function calculateAiCost(tokensUsed) {
     }
 }
 
+//Problem-04: Top Rated Restaurant Finder
 function topRatedRestaurant(restaurants) {
     if (!Array.isArray(restaurants) || restaurants.length === 0) {
         return `Invalid`
@@ -56,11 +60,11 @@ function topRatedRestaurant(restaurants) {
     return best.name.toUpperCase();
 }
 
+//Problem-05: Debugging Challenge - API Response Time Monitor
 function averageResponseTime(times) {
     if (Array.isArray(times) === false) {
         return "Invalid";
     }
-    
     if (times.length === 0) {
         return "Invalid";
     } for (let time of times)
@@ -73,7 +77,5 @@ function averageResponseTime(times) {
     }
     return total / times.length;
 }
-
-
 
 
