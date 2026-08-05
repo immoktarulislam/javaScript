@@ -43,14 +43,35 @@
 // console.log(reverse(`hello`))
 
 //count vowel
-function countVowels(str) {
-    let count = 0;
-    let vowels = `aeiouAEIOU`;
-    for (let char of str) {
-        if (vowels.includes(char)) {
-            count++;
-        }
-    }
-    return count
+// function countVowels(str) {
+//     let count = 0;
+//     let vowels = `aeiouAEIOU`;
+//     for (let char of str) {
+//         if (vowels.includes(char)) {
+//             count++;
+//         }
+//     }
+//     return count
+// }
+
+// console.log(countVowels(`beautiful`))
+// console.log(countVowels(`ami programming sekhche`))
+// console.log(countVowels(`insa allah khub joldi kichu ekta hobbey`))
+
+//output factorial
+// function facto(n) {
+//     let result = 1;
+//     for (let i = 1; i <= n; i++) {
+//         result *= i;
+//     } return result;
+// }
+// console.log(facto(5))
+
+
+let result = 1;
+for (let i = 1; i <= 5; i++) {
+    // let pValue = i;
+    // console.log(i)
+    result *= i;
 }
-console.log(countVowels(`beautiful`))
+console.log(result)
