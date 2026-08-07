@@ -69,35 +69,27 @@
 //     console.log(`false`)
 // }
 
+// function greet(name=`tumi amer valoooooooooobasa` ) {
+//     return `hello asmina ${name}`
 
-function sleep(name) {
-    console.log(`${name} is sleeping`)
-}
-function awake(name) {
-    console.log(`${name} is awaking`)
-}
-function walk(name, destination) {
-    console.log(`${name} is walking to ${destination}`)
-}
-function eat(name, time) {
-    console.log(`${name} is eating ${time}`)
-}
-function work(name) {
-    console.log(`${name} is working`)
-}
+// }
+// console.log(greet(16*5))
 
-function jobHolderLifeCycle(name) {
-    awake(name)
-    eat(name, `breakfast`)
-    walk(name, `office`)
-    work(name)
-    eat(name, `lunch`)
-    walk(name, `home`)
-    eat(name, `dinner`)
-    sleep(name)
+function greet(name = 5 * 4) {
+    return `hello asmina jano default params er number er task ${name}`
 
 }
-jobHolderLifeCycle(`Anas Mondal`)
-console.log(`...................`)
-jobHolderLifeCycle(`Asmina `)
+console.log(greet())
+
+// function greet(name=`tumi amer valoooooooooobasa` ) {
+//     return `hello asmina ${name}`
+
+// }
+// console.log(greet())
+
+// function greet(name = 16 * 5) {
+//     return `hello asmina, to inform u, js khub powerful language, parameter o argument er moddhe string o number o kono number er task korte paro ${name}`
+
+// }
+// console.log(greet())
 
